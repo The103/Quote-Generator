@@ -142,6 +142,16 @@ import "./NavStyle.css";
     Paragraph: "John Wick",
     id: crypto.randomUUID(),
   },
+  {
+    Title: "Hello. My name is Inigo Montoya. You killed my father. Prepare to die",
+    Paragraph: "Princess Bride",
+    id: crypto.randomUUID(),
+  },
+  {
+    Title: "I am Iron Man.",
+    Paragraph: "Iron Man",
+    id: crypto.randomUUID(),
+  },
   ];
   let QuotesMade = [];
   
