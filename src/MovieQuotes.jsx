@@ -152,6 +152,16 @@ import "./NavStyle.css";
     Paragraph: "Iron Man",
     id: crypto.randomUUID(),
   },
+  {
+    Title: "This is SPARTA!",
+    Paragraph: "300",
+    id: crypto.randomUUID(),
+  },
+  {
+    Title: "INCONCEIVABLE!!",
+    Paragraph: "Princess Bride",
+    id: crypto.randomUUID(),
+  },
   ];
   let QuotesMade = [];
   
@@ -178,7 +188,7 @@ function MovieQuotes()
       })
       if(issame === false)
       {
-        setMainQuotes([...Mainquotes, Initalquotes[whichQuote]])
+        setMainQuotes([Initalquotes[whichQuote]])
         QuotesMade.push(whichQuote);
       } else
       {
@@ -187,7 +197,7 @@ function MovieQuotes()
     } else
     {
       return(
-        setMainQuotes([...Mainquotes, 
+        setMainQuotes([
           {
             Title: "That's all folks!",
             Paragraph: "You can add your own through the bar at the top!", 
